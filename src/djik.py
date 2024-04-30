@@ -55,8 +55,8 @@ new_route=0
 gmap1= gmplot.GoogleMapPlotter(mean_lat, mean_long, 13)
 gmap2= gmplot.GoogleMapPlotter(mean_lat, mean_long, 13)
 
-gmap1.coloricon = "http://www.googlemapsmarkers.com/v1/%s/"
-gmap2.coloricon = "http://www.googlemapsmarkers.com/v1/%s/"
+gmap1.coloricon = "https://www.google.com/maps/d/edit?mid=1V62Fkwr8P2xkMkPZYmPlYQWD9yBDOeY&ll=-7.278400163098178%2C112.79103491481779&z=15"
+gmap2.coloricon = "https://www.google.com/maps/d/edit?mid=1V62Fkwr8P2xkMkPZYmPlYQWD9yBDOeY&ll=-7.278400163098178%2C112.79103491481779&z=15"
 
 #gmap1.scatter(lat_list, long_list, 'red', size=40, marker=False)
 #gmap2.scatter(lat_list, long_list, 'red', size=40, marker=False)
